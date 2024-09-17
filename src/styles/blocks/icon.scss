@@ -13,18 +13,20 @@
   @include on-hover(transform, scale(1.2));
 
   &--phone {
-    background-image: url(../images/icons/phone.png);
+    background-image: url(../images/icons/phone.svg);
   }
 
   &--menu {
-    background-image: url(../images/icons/menu.png);
+    background-image: url(../images/icons/menu.svg);
 
-    &:hover {
-      background-image: url(../images/icons/menu-hover.png);
+    @media (any-hover: hover) {
+      &:hover {
+        background-image: url(../images/icons/menu-hover.svg);
+      }
     }
   }
 
   &--close {
-    background-image: url(../images/icons/close.png);
+    background-image: url(../images/icons/close.svg);
   }
 }

@@ -16,5 +16,10 @@
     padding: 14px 16px;
     border-radius: 16px;
     min-height: 148px;
+    resize: none;
+  }
+
+  &__button {
+    border: none;
   }
 }
